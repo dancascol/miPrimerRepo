@@ -1,0 +1,21 @@
+name: Feature Request
+description: Sugiere una nueva funcionalidad para el proyecto
+title: "[FEATURE] - "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Descripción de la funcionalidad
+      description: Explica qué funcionalidad nueva te gustaría ver
+      placeholder: Me gustaría que el sistema pueda...
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivación
+      description: ¿Por qué es importante esta funcionalidad?
+      placeholder: Esto ayudaría porque...
+    validations:
+      required: true
