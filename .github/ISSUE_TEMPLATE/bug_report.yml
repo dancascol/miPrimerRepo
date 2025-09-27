@@ -1,0 +1,13 @@
+name: Bug Report
+description: Reporta un bug para ayudar a mejorar el proyecto
+title: "[BUG] - "
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: ¿Qué pasó?
+      description: Describe el bug que encontraste
+      placeholder: Se esperaba X, pero ocurrió Y
+    validations:
+      required: true
